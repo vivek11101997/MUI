@@ -3,6 +3,8 @@ import './App.css';
 import MuiAutoComplate from './components/MuiAutoComplate';
 import MuiButton from './components/MuiButton';
 import MuiCheckBox from './components/MuiCheckBox';
+import MuiLayout from './components/MuiLayout';
+import Muimagelist from './components/Muimagelist';
 import MuiRadio from './components/MuiRadio';
 import MuiRating from './components/MuiRating';
 import MuiSelect from './components/MuiSelect';
@@ -22,7 +24,9 @@ function App() {
       {/* <MuiSwitch/> */}
 
       {/* <MuiRating/> */}
-      <MuiAutoComplate/>
+      {/* <MuiAutoComplate/> */}
+      {/* <MuiLayout/> */}
+      <Muimagelist/>
     </div>
   );
 }
